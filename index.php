@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Alive</title>
     
-    
+    <link rel="icon" href="logo.png" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -34,8 +34,8 @@
     <div class="content">
     <h3 class="text-right">Alive<i style="color:red; font-size:25px; text-shadow: 2px 2px 4px #000000;" class="fa fa-circle"></i></h3>
     <form action="#" method="post">
-        <input class="border border-secondary" type="text" name="singlefeed" placeholder="Search a topic" required/>
-        <input type="submit" name="submit" value="Search"/> 
+        <input class="border border-secondary" type="text" name="singlefeed" placeholder="Search a topic" style="width:50%;" required/>
+        <input class="btn btn-secondary" type="submit" name="submit" value="Search"/> 
     </form>
         
     <?php
